@@ -18,7 +18,8 @@
 	  *
  	  * You should have received a copy of the GNU General Public License
  	  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
-         * @param  Array $Array 
+          * @author Andrey Knupp Vital
+          * @param  Array $Array 
 	  * @param  Array $Permutations
 	  * @throws OutOfRangeException se o número de índices / valores no array for maior que 5
 	  */
