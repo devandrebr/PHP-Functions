@@ -13,7 +13,7 @@
 		   forEach( new RecursiveIteratorIterator ( new RecursiveArrayIterator ( $Array ) ) as $Data ) 
 			     $FlattenArray [ ] = $Data ; 
 			     if( count( $FlattenArray ) > 5 ) 
-				  throw new OutOfRangeException( 'Não podemos gerar permutações com mais de 5 matrizes' );
+				  throw new OutOfRangeException( 'Não podemos gerar permutações com mais de 5 valores' );
 		   $Array = array_filter ( array_unique ( $FlattenArray ) ) ;
 		   if( count ( $Array ) ) {
 			 for ( $i = ( count ( $Array ) - 1 ) ; $i >= 0 ; -- $i ) :
