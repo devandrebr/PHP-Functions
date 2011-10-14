@@ -1,8 +1,8 @@
 <?php
 
           /**
-           * Aplica uma máscara em uma string passada como parâmetro, retornando
-           * a string formatada para a máscara também passada como parâmetro
+           * Aplica uma mÃ¡scara em uma string passada como parÃ¢metro, retornando
+           * a string formatada para a mÃ¡scara tambÃ©m passada como parÃ¢metro
            * 
            * Copyright (C) <2011-2012>  <Andrey Knupp Vital>
            *
@@ -24,10 +24,10 @@
            * @return String
            */
           function Mask ( $value , $mask , $delimiter = '#' ) {
-                 if ( empty ( $value ) ) throw new InvalidArgumentException ( 'Não temos uma string para ser máscarada' );
-                 if ( empty ( $mask ) ) throw new InvalidArgumentException ( 'Não foi definida uma máscara' );
+                 if ( empty ( $value ) ) throw new InvalidArgumentException ( 'NÃ£o temos uma string para ser mÃ¡scarada' );
+                 if ( empty ( $mask ) ) throw new InvalidArgumentException ( 'NÃ£o foi definida uma mÃ¡scara' );
                  $data = Array( );
-                 $k;
+                 $k = NULL;
                  $value = ( string ) $value;
                  for ( $i = 0; $i <= strlen ( $mask ) - 1;  ++ $i ) {
                         if ( $mask[ $i ] == $delimiter ) {
