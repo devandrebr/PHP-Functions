@@ -1,5 +1,5 @@
 <?php 
-  
+	
 	 /**
 	  * Recupera todas permutações de uma matriz
 	  * 
@@ -17,12 +17,12 @@
 	  *
  	  * You should have received a copy of the GNU General Public License
  	  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    * @author Andrey Knupp Vital
-    * @param  Array   $Array 
+          * @author Andrey Knupp Vital
+          * @param  Array   $Array 
 	  * @param  Array   $Permutations
-    * @param  Integer $limitOffset
+          * @param  Integer $limitOffset
 	  * @throws OutOfRangeException se o número de índices / valores no array for maior que $limitOffset
-    */
+          */
 	 function getPermutations ( Array $Array , Array $Permutations = Array ( ) , $limitOffset = 5 ) {
 		   static $permutedItems = Array ( ) ;
 		   $FlattenArray = Array ( );
